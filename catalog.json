@@ -1,0 +1,17 @@
+{
+  "format": 1,
+  "updated": "2026-11-28",
+  "mods": [
+    {
+      "id": "real_materials",
+      "name": "Real Materials",
+      "version": "0.6",
+      "author": "C&D (Coffee and Danil)",
+      "game": "Phyxel",
+      "description": "264 материала: кухня, химия, электроника, пиротехника, строительство. У каждого материала иконка.",
+      "url": "https://github.com/DanCoff/DigitalMod-Mods/releases/download/v0.6/RealMaterials.digm",
+      "size": 1539606,
+      "sha256": "f98f14d06b6622c353b5425f83697582a79afdca6bfa33c08ea642a72d7165f9"
+    }
+  ]
+}
