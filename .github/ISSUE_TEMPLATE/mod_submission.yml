@@ -1,0 +1,48 @@
+name: Предложить мод / Submit a mod
+description: Предложите мод в формате .digm для каталога Digital Mod / Submit a .digm mod for the Digital Mod catalog
+title: "[Mod] "
+labels: ["mod-submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Прикрепите файл .digm к этому Issue. Если GitHub не принимает расширение, заархивируйте его в .zip и прикрепите архив.
+        Attach your .digm file to this issue. If GitHub rejects the extension, zip the file and attach the archive.
+  - type: input
+    id: mod-name
+    attributes:
+      label: Название мода / Mod name
+    validations:
+      required: true
+  - type: input
+    id: game
+    attributes:
+      label: Игра / Game
+      placeholder: "Phyxel, или другая игра / Phyxel, or another game"
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Версия / Version
+      placeholder: "0.1"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Описание / Description
+      description: Что делает мод, что нужно для работы. / What the mod does and what it requires.
+    validations:
+      required: true
+  - type: checkboxes
+    id: rights
+    attributes:
+      label: Подтверждения / Confirmations
+      options:
+        - label: Мод создан мной или у меня есть право его публиковать. / I made this mod or have the right to publish it.
+          required: true
+        - label: Файл не содержит программ (.exe, .dll, .bat) и скриптов. / The file contains no programs (.exe, .dll, .bat) or scripts.
+          required: true
+        - label: Я понимаю, что мод проверяется вручную перед публикацией. / I understand the mod is reviewed manually before publishing.
+          required: true
