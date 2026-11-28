@@ -1,6 +1,5 @@
 {
   "format": 1,
-  "updated": "2026-11-28",
   "mods": [
     {
       "id": "real_materials",
@@ -8,10 +7,11 @@
       "version": "0.6",
       "author": "C&D (Coffee and Danil)",
       "game": "Phyxel",
-      "description": "264 материала: кухня, химия, электроника, пиротехника, строительство. У каждого материала иконка.",
-      "url": "https://github.com/DanCoff/DigitalMod-Mods/releases/download/v0.6/RealMaterials.digm",
-      "size": 1539606,
-      "sha256": "f98f14d06b6622c353b5425f83697582a79afdca6bfa33c08ea642a72d7165f9"
+      "description": "Реальные материалы: кухня, химия, электроника, пиротехника, строительство. 264 материала. Первые 100 карточек в новом стиле, остальные с базовыми иконками. Уран удалён (см. CHANGELOG).",
+      "url": "https://github.com/DanCoff/DigitalMod-Mods/releases/download/v0.6/real_materials.digm",
+      "size": 1539990,
+      "sha256": "eff9dfcaed3968cb45eea8129ea5bccbc6c322a7c6353bbb7c502275542399ca",
+      "cover": "https://raw.githubusercontent.com/DanCoff/DigitalMod-Mods/main/covers/real_materials.png"
     }
   ]
 }
